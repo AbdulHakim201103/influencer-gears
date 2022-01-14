@@ -5,6 +5,7 @@
 }
 body{
     font-family: 'Poppins', sans-serif;
+    background-color: #f7f3f3;
 }
 /* commone */
 .contenar{
@@ -45,6 +46,7 @@ nav{
     font-size: 16px;
     padding: 10px;
     font-weight: 700;
+   cursor: pointer; 
 }
 /*----------------- banner style start--------------- */
 .banner{
@@ -65,6 +67,7 @@ nav{
 .banner-left p{
     font-size: 16px;
     margin: 10px 0;
+    line-height: 2em;
 }
 .banner-left button{
     background-color: #E02C6D;
@@ -74,6 +77,7 @@ nav{
     border: none;
     font-size: 18px;
     margin-top: 10px;
+    cursor: pointer;
 }
 .banner-right img{
     width: 100%;
@@ -92,3 +96,87 @@ nav{
 /*----------------------- --------
 header style end 
 ---------------------------------*/
+
+
+
+
+/*-------------------------------------
+ main style start------------------- */
+
+
+ 
+ /* ---------collection-title style start--------------*/
+
+ 
+ .collection-title{
+     color: #3A3A3A;
+     font-size: 28px;
+     font-weight: 600;
+     text-align: center;
+     margin: 50px;
+ }
+ /*------------ card section style start-------------- */
+ .card-section{
+     display: grid;
+     grid-template-columns: repeat(3,1fr);
+     grid-gap: 60px;
+ }
+ .card{
+     background-color: #fff;
+     width: 329px;
+    height: 476px;
+    border-radius: 15px;
+ }
+ .card-item{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 30px;
+    
+ }
+ .card-photo img{
+     width: 100%;
+ }
+.card-info h2{
+    font-size: 28px;
+    font-weight: 600;
+    margin: 5px 0;
+    color: #E02C6D;
+}
+.card-info h3{
+    font-size: 24px;
+    font-weight: 500;
+    margin: 5px 0;
+}
+small{
+    margin: 5px 0;
+}
+.fa-star.filled{
+    color: goldenrod;
+}
+.fa-star.empty{
+    color: #3A3A3A;
+}
+.rating{
+    margin-left: 10px;
+}
+.card-info p{
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+/* button style start */
+.button{
+    display: flex;
+    justify-content: flex-end;
+}
+.button button{
+    border: none;
+    color: #E02C6D;
+    font-size: 24px;
+    margin-top: 40px;
+    margin-right: 35px;
+    padding: 5px;
+    cursor: pointer;
+
+}
