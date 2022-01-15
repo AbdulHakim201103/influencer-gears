@@ -64,6 +64,55 @@ nav{
     font-size: 52px;
     font-weight: 700;
 }
+.animation-text{
+    font-size: 75px;
+    position: relative;
+    color: transparent;
+    
+}
+.animation-text::before{
+    content: "Influencer";
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #E02C6D;
+    animation: typing 5s linear;
+}
+@keyframes typing{
+    0%{
+        content: "I";
+    }
+    10%{
+        content: "In";
+    }
+    20%{
+        content: "Inf";
+    }
+    30%{
+        content: "Infl";
+    }
+    40%{
+        content: "Influ";
+    }
+    50%{
+        content: "Influe";
+    }
+    60%{
+        content: "Influen";
+    }
+    70%{
+        content: "Influenc";
+    }
+    80%{
+        content: "Influence";
+    }
+    90%{
+        content: "Influencer";
+    }
+    100%{
+        content: "Influencer";
+    }
+}
 .banner-left p{
     font-size: 16px;
     margin: 10px 0;
@@ -179,4 +228,60 @@ small{
     padding: 5px;
     cursor: pointer;
 
+}
+
+/*---------------------- 
+bonus seaction style
+------------------------- */
+.bonus{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    align-items: center;
+    grid-gap: 40px;
+    margin: 100px 0;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+}
+.cannected{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.cannected h1{
+    font-size: 28px;
+    margin: 20px 0;
+}
+.cannected h2{
+    font-size: 24px;
+    margin: 10px 0;
+}
+.cannected p{
+    font-size: 16px;
+    margin: 10px 0;
+}
+.footer-manu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot-manu-list-itam{
+    list-style: none;
+}
+.foot-manu-list-itam a{
+    text-decoration: none;
+    color: rgba(132, 160, 236, 0.863);
+}
+
+.paymant{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.paymant img{
+    width: 100%;
+    
 }
