@@ -326,3 +326,46 @@ footer{
     margin: 10px;
     font-size: 28px;
 }
+/*--------------------------------------------
+ Responsive section style(media queries)
+ ------------------------------------ */
+
+ /*-------------- Tablte devices -------------*/
+  
+ @media screen {
+     
+ } screen and (max-width: 850px;) {
+     
+ }{
+     .banner{
+         grid-template-columns: 1fr;
+         width: 100%;
+     }
+     .card-section{
+         grid-template-columns: 1fr 1fr;
+         width: 100%;
+     }
+      .bonus{
+          grid-template-columns: 1fr 1fr;
+          width: 100%;
+      }
+      .banner-left{
+          order: 2;
+      }
+
+ }
+ @media (max-width:700px;){
+    .card-section{
+        grid-template-columns: 1fr;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+     .bonus{
+         grid-template-columns: 1fr;
+         width: 100%;
+     }
+
+ }
+
+ 
